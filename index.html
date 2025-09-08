@@ -2,21 +2,18 @@
 <html>
     <head>
         <title>Rock Paper Scissor</title>
-        /*Linked CSS */
         <link rel="stylesheet" href="RPS.css">
     </head>
     <body>
-        /*Title in page*/
         <div class="Title">
             <h1>Rock Papper Scissor</h1>
             <h1>Game</h1>
         </div>
-        /*Result Banner*/
         <div class="ResultBanner">
             <p class="DefaultBanner"
             >Choose a move</p>
         </div>
-        /*Buttons for user to select their move*/
+        
         <div class ="Buttons">
             <button class ="actionButtons" onclick="ComputerMove('Rock', Math.random());">
                 <img src="Imgs/RockImg.png"></button>
@@ -25,14 +22,14 @@
             <button class ="actionButtons" onclick="ComputerMove('Scissor', Math.random()); ">
                 <img src="Imgs/ScissorImg.png"></button>
         </div>
-        /*Result History No. of Wins, Ties and Losses*/
+        
         <div class="ResultHistory">
             <p>Win:0</p>
             <p>Tie:0</p>
             <P>Lost:0</P>
 
         </div>
-        /*Reset Button to reset the score/history*/
+        
         <div class="LeastPart">
             <button class="ResetButton" onclick="resetButton();">Reset</button>
         </div>
@@ -135,4 +132,5 @@
         </script>
     </body>
 </html>
+
 
